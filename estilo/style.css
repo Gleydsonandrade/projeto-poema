@@ -123,8 +123,6 @@ footer p {
     margin-left: 20px;
     outline: none;
     background: transparent;
-    border: none;
-    border: 1px solid gray;
     cursor: pointer;
     background-color: rgb(20, 20, 206);
     border-radius: 50%;
