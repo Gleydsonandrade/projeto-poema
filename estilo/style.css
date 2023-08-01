@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Poppins:wght@600&family=Sriracha&display=swap');
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    width: 100%;
+    min-height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1  {
+    color: white;
+    font-size: 3.5em;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+}
+
+header > p  {
+    color: white;
+    font-size: 18px;
+    
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    margin-left: 6px;
+}
+
+
+
+ a:hover {
+   text-decoration: underline;
+}
+
+section {
+    padding: 10vh 40px;
+    line-height: 2em;
+    font-size: 1.7em;
+    font-family: var(--fonte3);
+}
+
+section > p {
+    padding-bottom: 2.5em;
+    
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.61);
+    background-attachment: fixed;
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.507);
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+    padding: 5px ;
+}
+
+#img01 {
+    background-image: url('../imagens/foto2.jpg');
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#img02 {
+    background-image: url('../imagens/foto.jpg.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+}
+
+.btn {
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.btn i {
+    font-size: 20px;
+    outline: none;
+    
+}
+
+@media (max-width: 500px) {
+    
+    header h1 {
+        font-size: 3em;
+    }
+
+    section {
+      font-size: 1.1em;
+
+    }
+}
