@@ -126,6 +126,8 @@ footer p {
     cursor: pointer;
     background-color: rgb(20, 20, 206);
     border-radius: 50%;
+    position: relative;
+    left: 80%;
 
 }
 
